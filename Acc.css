@@ -1,0 +1,56 @@
+/* Style for the account details container */
+.account-details {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  /* Style for the account details heading */
+  .account-details h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Style for the account details paragraph */
+  .account-details p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style for the logout button */
+  .logout-btn {
+    display: block;
+    margin: 2rem auto 0;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: #0077FF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the logout button hover effect */
+  .logout-btn:hover {
+    background-color: #005CE6;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .account-details {
+      padding: 1rem;
+    }
+    .account-details h1 {
+      font-size: 1.5rem;
+    }
+    .account-details p {
+      font-size: 1rem;
+    }
+    .logout-btn {
+      margin-top: 1rem;
+    }
+  }
+  
